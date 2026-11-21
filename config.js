@@ -1,6 +1,6 @@
 /*
   PERSONALIZA AQUÍ LOS DATOS, COLORES Y TEMÁTICA.
-  Para cambiar la ecografía, reemplaza images/ecografia.jpeg por otra imagen
+  Para cambiar la ecografía, reemplaza ecografia.jpeg por otra imagen
   con el mismo nombre, o actualiza la ruta en "ecografia".
 */
 const INVITACION = {
@@ -12,8 +12,8 @@ const INVITACION = {
   whatsapp: "51945488229",
   mensajeWhatsApp: "¡Hola! Confirmo mi asistencia a la revelación de género de Valery y Johannes. ♡",
   mapsUrl: "https://www.google.com/maps/search/?api=1&query=Urb.%20Las%20Palmas%20Etapa%20I%20Manzana%20M%20Lote%206",
-  ecografia: "images/ecografia.jpeg",
-  musica: "music/cancion.mp3",
+  ecografia: "ecografia.jpeg",
+  musica: "cancion.mp3",
 
   // Tema editable: cambia el nombre y los colores.
   tema: {
