@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3e5d1">
+  <meta name="description" content="Invitación a la revelación de género de Valery y Johannes">
+  <title>Revelación de Género | Valery & Johannes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader"><span>♡</span><p>Una sorpresa está por llegar...</p></div>
+  <main>
+    <section class="cover" id="cover">
+      <div class="cover-lights"></div>
+      <div class="cover-content">
+        <div class="top-flourish">✧ · ✧ · ✧</div>
+        <p class="small-caps">Una dulce espera</p>
+        <h1>Revelación de<br><em>Género</em></h1>
+        <div class="question-balloons" aria-hidden="true">
+          <span class="balloon">?</span><span class="tiny-star">✦</span><span class="balloon">?</span>
+        </div>
+        <p class="cover-question">¿Niño o niña?</p>
+        <button class="open-btn" id="openInvitation">Abrir invitación <span>♡</span></button>
+        <p class="cover-names">Valery & Johannes</p>
+      </div>
+      <div class="cover-cloud cloud-left"></div><div class="cover-cloud cloud-right"></div>
+    </section>
+
+    <section class="invite hidden" id="invitation">
+      <div class="paper">
+        <div class="corner corner-a">✧</div><div class="corner corner-b">✧</div>
+        <header class="intro">
+          <div class="bow">🎀</div>
+          <p class="small-caps">Con mucha ilusión</p>
+          <h2>¡Tenemos una<br><em>gran sorpresa!</em></h2>
+          <p class="intro-copy">Hay un pequeño milagro creciendo y queremos compartir contigo el momento de descubrir si será niño o niña.</p>
+        </header>
+
+        <div class="ultrasound-wrap">
+          <div class="ultrasound-label">Nuestra pequeña sorpresa</div>
+          <div class="ultrasound-frame">
+            <img src="images/ecografia.jpeg" id="sonogram" alt="Ecografía del bebé">
+          </div>
+          <div class="frame-caption">Un amor que ya llena nuestros corazones ♡</div>
+        </div>
+
+        <div class="names-block">
+          <div class="leaf-line">❧ <span>♡</span> ❧</div>
+          <h2>Valery <span>&</span> Johannes</h2>
+          <p>¡Acompáñanos a descubrir el género de nuestro bebé!</p>
+        </div>
+
+        <div class="event-details">
+          <div class="detail">
+            <span class="detail-icon">▦</span>
+            <span class="detail-label">Sábado</span>
+            <strong>28 de noviembre<br>de 2026</strong>
+          </div>
+          <div class="detail">
+            <span class="detail-icon">◷</span>
+            <span class="detail-label">Hora</span>
+            <strong>7:00 p. m.</strong>
+          </div>
+          <div class="detail">
+            <span class="detail-icon">⌖</span>
+            <span class="detail-label">Lugar</span>
+            <strong>Urb. Las Palmas<br>Etapa I, Mz. M Lt. 6</strong>
+          </div>
+        </div>
+
+        <section class="countdown-section">
+          <p class="small-caps">El gran momento se acerca</p>
+          <h3>Falta muy poco...</h3>
+          <div class="countdown">
+            <div><strong id="days">00</strong><span>Días</span></div>
+            <div><strong id="hours">00</strong><span>Horas</span></div>
+            <div><strong id="minutes">00</strong><span>Minutos</span></div>
+            <div><strong id="seconds">00</strong><span>Segundos</span></div>
+          </div>
+        </section>
+
+        <section class="gift-section">
+          <h3><span>♧</span> Sugerencia de regalo</h3>
+          <div class="gift-options">
+            <div class="gift-option">
+              <div class="diaper">♡</div>
+              <p>Si crees que es<br>un niño, trae pañales<br><strong>talla P</strong></p>
+            </div>
+            <div class="gift-divider"></div>
+            <div class="gift-option">
+              <div class="diaper bow-diaper">♡</div>
+              <p>Si crees que es<br>una niña, trae pañales<br><strong>talla M</strong></p>
+            </div>
+          </div>
+        </section>
+
+        <div class="action-buttons">
+          <a class="action-btn whatsapp" id="whatsappBtn" target="_blank" rel="noopener"><span>◉</span><span>Confirma tu asistencia<br><strong>al 945 488 229</strong></span></a>
+          <a class="action-btn maps" id="mapsBtn" target="_blank" rel="noopener"><span>⌖</span><strong>Ver ubicación</strong></a>
+        </div>
+
+        <footer>
+          <p>Con amor, Valery & Johannes</p>
+          <div class="footer-hearts">♡　✧　♡</div>
+        </footer>
+      </div>
+    </section>
+  </main>
+  <button class="music-toggle" id="musicToggle" aria-label="Activar o pausar música">♫</button>
+  <audio id="music" loop preload="none"></audio>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
